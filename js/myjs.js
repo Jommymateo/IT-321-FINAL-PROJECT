@@ -1,5 +1,3 @@
-// Clark Angelo Lim //
-
 function myFunction(x) {
     var element = document.body;
     element.classList.toggle("dark-mode");
