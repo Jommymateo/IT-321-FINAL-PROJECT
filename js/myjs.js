@@ -1,4 +1,4 @@
-// Clark Angelo Lim //
+// Clark Angelo Lim and Allan Adajar //
 
 function myFunction(x) {
     var element = document.body;
