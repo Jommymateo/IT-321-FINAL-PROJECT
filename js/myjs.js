@@ -14,7 +14,7 @@ $("button").click(function(e){
     }
    
     
-    var URL ="https://newsapi.org/v2/top-headlines?apiKey=1c979add05b547a09223c2f422356937";
+    var URL ="https://newsapi.org/v2/top-headlines?apiKey=fde7cdbf595e49e1a186d097fa687fee";
     var option1=document.getElementsByClassName("select1");
     var option2=document.getElementsByClassName("select2");
     var option3=document.getElementById("KeyWords");
