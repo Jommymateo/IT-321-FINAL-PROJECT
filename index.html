@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>News App</title>
+    
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+</head>
+<body> 
+    <div class="head">
+        <div class="news">
+            <h5>News Search & Bookmark</h5>
+        </div>
+
+        <div class="head-right">
+            <h5>Top News</h5>
+            <h5>Bookmarks</h5>
+            <i onclick="myFunction(this)" class="fa fa-toggle-off"></i>
+       </div>
+    </div>
+    <div class="search">
+        <select class="select1">
+            <option value="ph">Philippines</option>
+            <option value="us">United States</option>
+            <option value="gb">United Kingdom</option>
+            <option value="ca">Canada</option>
+            <option value="fr">France</option>
+            <option value="au">Australia</option>
+            <option value="ar">Argentina</option>
+            <option value="id">Indonesia</option>
+        </select>
+        <select class="select2">
+            <option value="">All Category</option>
+            <option value="business">Business</option>
+            <option value="entertainment">Entertainment</option>
+            <option value="general">General</option>
+            <option value="health">Health</option>
+            <option value="science">Science</option>
+            <option value="sports">Sports</option>
+            <option value="technology">Technology</option>
+        </select>
+        <input type="text" name="" id="KeyWords" placeholder=" Key Word">
+        <button>
+            <i class="fa fa-search"></i>
+        </button>
+    </div>
+ 
+    <div class="container">
+        <ul id="list">
+        </ul>
+    </div>
+    <script src="./js/myjs.js"></script>
+</body>
+</html>
