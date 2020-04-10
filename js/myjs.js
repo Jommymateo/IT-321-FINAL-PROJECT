@@ -1,5 +1,4 @@
-// Clark Angelo Lim and Allan Adajar //
-
+// Clark Angelo Lim and Allan Adajar /
 function myFunction(x) {
     var element = document.body;
     element.classList.toggle("dark-mode");
