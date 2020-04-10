@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Karla|Poppins:400,600,700&display=swap);
+*{
+    font-family:Poppins,sans-serif;
+    
+    font-size: 1em;
+}
+body{
+    font-weight: lighter;
+    color: white;
+    margin: 0;
+}
+#list li h3,
+#list li p
+{color:black;}
+
+#list li h5,
+#list li h6{
+    font-weight: lighter;
+    color: rgb(99, 99, 99);
+}
+
+
+.dark-mode .head, 
+.dark-mode .head .head-right,
+.dark-mode .search,
+.dark-mode .search input,
+.dark-mode .search select,
+.dark-mode .search button,
+.dark-mode,
+.dark-mode div #list li h3,
+.dark-mode div #list li h5,
+.dark-mode div #list li h6,
+.dark-mode div #list li p,
+.dark-mode div #list li button{
+    background-color: rgb(15, 14, 14);
+    color: white;
+  }
+
+  .dark-mode .search select,  
+  .dark-mode .search input,
+  .dark-mode .search button{
+    border: 1px solid rgb(59, 50, 50);
+  }
+
+  .head,.head .head-right{
+    display: flex;    
+    background-color: rgb(20, 122, 37);
+    justify-content: space-between;
+    padding:0px 0px 0px 10px;
+  }
+  
+.head-right h5{
+    display: flex;   
+    padding-right:20px; 
+    justify-content: space-between;
+}
+h3{
+    margin:20px;
+}
+#prob{
+    margin-top:100px;
+    color:black;
+    text-align: center;
+}
+i{
+    margin-top: 13%;
+    margin-right: 10px;
+}
+.search{
+    text-align: center;
+    background-color: rgb(33, 179, 57);
+}
+.search select{
+    border: 20px;
+}
+.search select,.search input{
+    -webkit-appearance: none;
+    border-radius: 5px;
+    height:40px;
+    width: 300px;
+    margin:20px 15px 20px 15px;
+    text-indent: 5px;
+    border:none;
+    border-color: white;
+}
+.search button{
+    text-align: center;
+    padding: 5px 0px 5px 10px;
+    border:none;
+    height: 42px;
+    width: 35px;
+    border-radius: 5px;
+}
+
+
+
